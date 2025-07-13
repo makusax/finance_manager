@@ -1,3 +1,4 @@
+from crud import get_all_transactions
 from database.models import init_db
 from utils.helpers import print_menu
 
@@ -13,7 +14,12 @@ def main():
 
         elif choice == "0":
             print("Выход")
-            break
+
+
+        elif choice == "2":
+            transactions = get_all_transactions()
+            for row in transactions:
+                print(f"{row[4]} | {row[2]}: {row[1]} руб. ({row[5]})")
 
 if __name__ == "__main__":
     main()
