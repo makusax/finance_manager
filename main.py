@@ -21,6 +21,8 @@ def main():
             for row in transactions:
                 print(f"{row[4]} | {row[2]}: {row[1]} руб. ({row[5]})")
 
+
+
 if __name__ == "__main__":
     main()
 
