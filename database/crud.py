@@ -18,3 +18,12 @@ def get_all_transactions():
     transactions = cursor.fetchall()
     conn.close()
     return transactions
+
+
+def get_transactions_by_date(start_date, end_date):
+    cursor.execute("""
+        SELECT * FROM transactions 
+        WHERE date BETWEEN ? AND ?
+        ORDER BY date
+    """, (start_date, end_date))
+

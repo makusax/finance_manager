@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="409d017c-ab42-4de5-87ec-e17b27b89480" name="Changes" comment="Commit">
+    <list default="true" id="409d017c-ab42-4de5-87ec-e17b27b89480" name="Changes" comment="Добавление функции просмотра всех транзакций">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/crud.py" beforeDir="false" afterPath="$PROJECT_DIR$/database/crud.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/helpers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +52,7 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Python.crud.executor": "Run",
     "Python.finance_manager.executor": "Run",
+    "Python.helpers.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -126,7 +128,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752375268151</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit">
+      <option name="closed" value="true" />
+      <created>1752375973211</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1752375973211</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Добавление функции просмотра всех транзакций">
+      <option name="closed" value="true" />
+      <created>1752376022019</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1752376022019</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +162,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Initial project structure" />
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="Добавление функции просмотра всех транзакций" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление функции просмотра всех транзакций" />
   </component>
 </project>
